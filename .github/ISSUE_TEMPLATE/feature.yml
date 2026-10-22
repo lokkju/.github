@@ -1,0 +1,32 @@
+name: Feature request
+description: Something the project doesn't do yet.
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search the existing issues first; someone may have asked already.
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What you're trying to do and what gets in the way today.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What you'd like
+      description: The behavior or change you want.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+      description: Workarounds you use now, or other ways you considered.
+  - type: textarea
+    id: context
+    attributes:
+      label: Anything else
+      description: Links, examples or related issues.
